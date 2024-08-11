@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 1px solid black;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.1),
+    -10px -10px 10px white;
+}
+
+h2 {
+    line-height: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color: #d95980;
+}
+
+.two {
+    background-color: #fdac61;
+}
+
+.three {
+    background-color: #82d6f0;
+}
+
+.four {
+    background-color: #6d82df;
+}
+
+.gameFlash {
+    background-color: rgb(126, 126, 126);
+}
+
+.userFlash {
+    background-color: green;
+}
