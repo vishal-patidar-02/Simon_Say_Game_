@@ -84,11 +84,11 @@ function reset() {
 }
 
 function saveData() {
-  localStorage.setItem("data", heigth_score);
+  localStorage.setItem("GameData", heigth_score);
 }
 
 function showData() {
-  heigth_score = localStorage.getItem("data");
+  heigth_score = localStorage.getItem("GameData");
 }
 
 showData();
